@@ -1,0 +1,10 @@
+.price {
+  text-align: right;
+  margin-right: 3rem;
+  position: relative;
+  top: -2.5rem;
+}
+
+.content {
+  height: 1rem;
+}

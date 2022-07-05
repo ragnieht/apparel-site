@@ -1,0 +1,36 @@
+.image img {
+  width: 22.5rem;
+  height: 22.5rem;
+}
+
+.content li {
+  list-style: none;
+}
+
+.item {
+  width: auto;
+}
+
+.actions {
+  margin-left: -1rem;
+}
+
+.actions Button {
+  font-size: 10px;
+  margin-left: 1rem;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.actions Button {
+  color: black;
+}
+
+.actions Button:hover {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}

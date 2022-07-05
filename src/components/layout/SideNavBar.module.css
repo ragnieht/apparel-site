@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid black;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
+}
+
+.types {
+  list-style: none;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.types li {
+  margin-top: 1rem;
+}
+
+.types li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  margin-top: -31rem;
+  margin-left: 23rem;
+}

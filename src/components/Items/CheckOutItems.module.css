@@ -1,0 +1,50 @@
+.content {
+  height: 4rem;
+  margin-left: -2rem;
+  margin-top: 3rem;
+}
+
+.avatar {
+  margin-left: 4rem;
+  margin-top: -4rem;
+}
+
+.count p {
+  margin-left: 2rem;
+  margin-top: -3.2rem;
+}
+.title {
+  margin-left: 9rem;
+  margin-top: -3rem;
+  font-size: 1.5rem;
+}
+
+.price {
+  margin-left: 45rem;
+  margin-top: -2rem;
+  font-size: 1.5rem;
+}
+
+.actions {
+  margin-left: 50rem;
+  margin-top: -2.1rem;
+  font-size: 1.5rem;
+}
+
+.actions button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.actions button:active {
+  transform: scale(0.9);
+}
