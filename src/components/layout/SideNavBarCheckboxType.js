@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FormGroup, FormControlLabel, Checkbox } from "@mui/material";
 // import { useHistory } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
   toggleTopsBox,
   toggleBottomsBox,
@@ -11,7 +11,6 @@ import {
   toggleKidsBox,
   addFilter,
   removeFilter,
-  filterDisplay,
 } from "../../store/itemSlice";
 
 export default function SideNavBarCheckboxType(props) {
