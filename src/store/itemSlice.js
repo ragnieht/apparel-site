@@ -1,10 +1,29 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
+// export const getItemsAsync = createAsyncThunk(
+//   "apparels/getItemsAsync",
+//   async (url) => {
+//     const response = await fetch(url);
+
+//     if (response.ok) {
+//       const items = await response.json();
+//       const fetchedItems = [];
+//       for (let key in items) {
+//         const item = {
+//           id: key,
+//           ...items[key],
+//         };
+//         fetchedItems.push(item);
+//       }
+//       return fetchedItems;
+//     }
+//   }
+// );
+
 export const getItemsAsync = createAsyncThunk(
-  "apparels/getItemsAsync",
+  "apparels/getItemsAsynce",
   async (url) => {
     const response = await fetch(url);
-
     if (response.ok) {
       const items = await response.json();
       const fetchedItems = [];
